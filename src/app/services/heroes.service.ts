@@ -71,6 +71,10 @@ export class HeroesService {
     console.log("servicio listo para usarse");
     console.log("constructor");
   }
+
+  getHeroe(i: number) {
+    return this.heroes[i];
+  }
 }
 
 export interface Heroe {
